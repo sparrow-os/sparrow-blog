@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sparrow.blog.service</groupId>
-    <artifactId>sparrow-blog-service</artifactId>
+    <groupId>com.sparrow.blog.dao</groupId>
+    <artifactId>sparrow-blog-dao</artifactId>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
@@ -18,13 +18,8 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.sparrow.blog.dao</groupId>
-            <artifactId>sparrow-blog-dao</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sparrow.blog.utils</groupId>
-            <artifactId>sparrow-blog-utils</artifactId>
+            <groupId>com.sparrow.blog.domain</groupId>
+            <artifactId>sparrow-blog-domain</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

@@ -13,8 +13,10 @@
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
-
         <module>sparrow-blog-domain</module>
         <module>sparrow-blog-service</module>
+        <module>sparrow-blog-dao</module>
+        <module>sparrow-blog-web-api</module>
+        <module>sparrow-blog-utils</module>
     </modules>
 </project>
