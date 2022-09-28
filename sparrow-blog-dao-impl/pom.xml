@@ -20,7 +20,7 @@
     <dependencies>
         <dependency>
             <groupId>com.sparrow.blog</groupId>
-            <artifactId>sparrow-blog-dao-impl</artifactId>
+            <artifactId>sparrow-blog-dao</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

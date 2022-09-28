@@ -25,7 +25,7 @@ public class DatasourceAutoConfiguration {
     }
 
     @Bean
-    public DataSourceFactoryImpl dataSourceFactory() {
+    public DataSourceFactoryImpl dataSourceFactory(DruidDataSource sparrow_default) {
         return new DataSourceFactoryImpl("sparrow_default");
     }
 }
