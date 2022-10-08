@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<project
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+        xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <parent>
+        <groupId>com.sparrow</groupId>
+        <artifactId>sparrow-zoo-bom</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>sparrow-blog</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <modules>
+        <module>sparrow-blog-domain</module>
+        <module>sparrow-blog-dao</module>
+        <module>sparrow-blog-adapter</module>
+        <module>sparrow-blog-dao-impl</module>
+        <module>sparrow-blog-infrastructure</module>
+        <module>sparrow-blog-commons</module>
+        <module>sparrow-blog-protocol</module>
+        <module>sparrow-blog-main</module>
+        <module>sparrow-blog-client-api</module>
+    </modules>
+</project>
